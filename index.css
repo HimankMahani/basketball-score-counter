@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    background: #1B244A;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 35.89px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #EEEEEE;
+}
+
+.card{
+    width: 200px;
+    height: 160px;
+    top: 125px;
+    left: 82px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background: #080001;
+    border-style: ridge;
+    border-radius: 10%;
+    border-width: 10px;
+    border-color: #9AABD8;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cursed Timer ULiL';
+    font-size: 65px;
+    font-weight: 400;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.point{
+    width: 50px;
+    height: 50px;
+    top: 271px;
+    left: 82px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    background-color: transparent;
+    border-radius: 20%;
+
+    font-family: 'Cursed Timer ULiL';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+}
+
+.buttons{
+    display: flex;
+    padding-top: 25px;
+    justify-content: space-between;
+}
+
+#title{
+    padding-top: 10px;
+    font-family: Verdana;
+    color: #EEEEEE	;
+    font-size: 50px;
+}
+
+#reset{
+    width: 170px;
+    height: 70px;
+    border-radius: 5px 5px 5px 5px;
+    color: #9AABD8;
+    border: 5px ridge #9AABD8;
+    background-color: transparent;
+    
+    font-family: 'Cursed Timer ULiL';
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 27.81px;
+    text-align: center;
+}
+
+#reset-button{
+    padding-top: 70px;
+}
+
+@media (max-width: 768px) {
+    #title {
+        font-size: 35px;
+    }
+    
+    .container {
+        width: 90%;
+    }
+    
+    h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    .card {
+        width: 150px;
+        height: 120px;
+        font-size: 45px;
+        border-width: 8px;
+    }
+    
+    .point {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+    #reset {
+        width: 140px;
+        height: 60px;
+        font-size: 20px;
+        border-width: 4px;
+    }
+    
+    #reset-button {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 480px) {
+    #title {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .card {
+        width: 100px;
+        height: 80px;
+        font-size: 35px;
+        border-width: 6px;
+    }
+    
+    .point {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+    #reset {
+        width: 120px;
+        height: 50px;
+        font-size: 16px;
+        border-width: 3px;
+    }
+    
+    .buttons {
+        padding-top: 15px;
+    }
+    
+    #reset-button {
+        padding-top: 30px;
+    }
+}
